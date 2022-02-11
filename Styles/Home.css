@@ -1341,3 +1341,7 @@
     display: none;
  border-radius:1000px;
 }
+.contactus_gradient{
+  background-image: linear-gradient(#e5e5e5, #0D6EFD);
+}
+
