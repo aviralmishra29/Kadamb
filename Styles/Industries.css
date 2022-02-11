@@ -179,3 +179,7 @@
     width: 320px;
   }
 }
+ ul {
+   justify-content: center;
+   align-items: center;
+ }

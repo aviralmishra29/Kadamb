@@ -14,3 +14,10 @@
     left: 21vw !important;
   }
 }
+
+.u-tabs .u-tab-link {
+  display: block;
+  padding: 10px 30px;
+  color: inherit;
+  border-color: transparent;
+}
