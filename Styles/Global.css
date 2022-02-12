@@ -25,3 +25,69 @@
 .text-white{
   text-decoration: none; 
 }
+
+.fixedposition{ 
+  /* overflow: hidden; */
+  background-color: #f1f6f6;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+
+.positioninbetween {
+  position: relative;
+  top: -12px;
+}
+
+.preloaderlayer{
+  height: 150vh;
+  width: 100vw;
+  background-color: white;
+  z-index: 120;
+  position: sticky;
+  top: 0;
+}
+.preloader{
+  /* background: rgb(255, 255, 255) url(../images/logo.jpg) no-repeat center; */
+  /* background-size: 15%; */
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 150;
+  /* -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite; */
+}
+.preloader-image{
+  height: 500px;
+  width: 500px;
+  position: relative;
+  animation: logoloader 3s infinite;
+  top: 20vh;
+  left: 32vw;
+}
+
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotatey(0deg); }
+  100% { -webkit-transform: rotatey(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotatey(0deg); }
+  100% { transform: rotatey(360deg); }
+} 
+
+@keyframes logoloader {
+  0%{
+    transform: scale(0.0);
+  }
+  50%{
+    transform: scale(0.5);
+  }
+  100%{
+    transform: scale(0.0);
+  }
+}
