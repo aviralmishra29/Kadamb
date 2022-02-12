@@ -6,7 +6,7 @@ var preloaderlayer = document.querySelectorAll(".preloaderlayer")[0];
 
 window.addEventListener("load",()=>{
     while(true){
-        if((new Date().getTime()) -(startTime) > 4000){
+        if((new Date().getTime()) -(startTime) > 3000){
             preloader.style.display = "none";
             preloaderlayer.style.display = "none";
             break;
