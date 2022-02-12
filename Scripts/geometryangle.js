@@ -25,7 +25,7 @@ $('.u-section-1').Geometryangle(
         ambient: 'rgba(0, 119, 105, 1)',
         diffuse: 'rgba(0, 119, 105, 1)',
         
-        background: 'rgba(0, 119, 225, 1)',
+        background: '#000f54',
         speed: 0.001,
         fluctuationSpeed: 0.5,
         fluctuationIntensity: 0,
