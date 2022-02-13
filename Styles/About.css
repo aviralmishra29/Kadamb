@@ -7,7 +7,7 @@
   width: 228px;
   height: 228px;
   background-image: none;
-  margin: 60px auto 0 850px;
+  margin: 97px auto 0 850px;
 }
 
 .u-section-1 .u-image-1 {
@@ -451,4 +451,26 @@
   .u-section-3 .u-text-2 {
     width: 340px;
   }
+}
+
+.alignitright{
+  position: relative;
+  left: 750px;
+  bottom: 150px;
+}
+
+@media (max-width: 991px) {
+  .alignitright{
+   display: none;
+  }
+}
+
+.upper_margin{
+  margin-bottom: 5vh;
+}
+@media (min-width: 991px) {
+  .upper_margin{
+    margin-top: -180px;
+  }
+  
 }

@@ -1345,3 +1345,11 @@
 .contactus_gradient{
   background-image: linear-gradient(#e5e5e5, #0D6EFD);
 }
+
+
+/* ************************************** */
+
+   .carousel_img {
+    height: 60vh;
+    width: 100%;
+   }
