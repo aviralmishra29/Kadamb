@@ -1,3 +1,28 @@
 .container{
     margin-top: 96px;
 }
+.padding_in_btw{
+    padding: 6px 0px;
+    margin-bottom: 10px;
+}
+.scrollto{
+    text-decoration: none;
+}
+.alt_bgcolor{
+    background-color: whitesmoke;
+    padding-top: 1px;
+    padding-bottom: 100px;
+}
+.padding_rl{
+    padding: 10px;
+    /* border: solid 2px red; */
+}
+.margin_bottom{
+    margin-bottom: 100px;
+}
+
+/* @media (max-width:580px) {
+    .img_padding_mv{
+        padding-top: 0px;
+    }
+} */
