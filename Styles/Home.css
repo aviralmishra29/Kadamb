@@ -1356,3 +1356,15 @@
     height: 60vh;
     width: 100%;
    }
+
+
+   @media (min-width: 575px){
+     .responsive_card{
+       display: none;
+     }
+   }
+   @media (max-width: 575px) {
+  .fixed_margin_top{
+    margin-top:0px;
+  }   
+  }
