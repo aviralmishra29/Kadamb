@@ -22,10 +22,10 @@ $('.u-section-1').Geometryangle(
         xRange: 0.8,
         yRange: 0.1,
         zRange: 1.0,
-        ambient: 'rgba(0, 119, 105, 1)',
-        diffuse: 'rgba(0, 119, 105, 1)',
+        ambient: 'rgb(0,255,255)',
+        diffuse: 'rgb(0,255,255)',
         
-        background: '#000f54',
+        background: 'rgb(126, 200, 227)',
         speed: 0.001,
         fluctuationSpeed: 0.5,
         fluctuationIntensity: 0,
@@ -46,8 +46,8 @@ $('.u-section-1').Geometryangle(
         // Position of light source.
         zOffset: 100,
         
-        ambient: 'rgba(255,0 ,0, 1)',
-        diffuse: 'rgba(255,136,0, 1)',
+        ambient: 'rgb(13, 0, 253)',
+        diffuse: 'rgb(13, 0, 253)',
         speed: 0.010,
         gravity: 1200,
         

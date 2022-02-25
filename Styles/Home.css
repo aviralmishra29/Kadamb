@@ -441,7 +441,7 @@
     min-height: 760px;
   }
 } .u-section-4 {
-  background-image: linear-gradient(#545af8, #e84a90);
+  background-image: linear-gradient(#545af8, #7EC8E3);
 }
 
 .u-section-4 .u-sheet-1 {
@@ -914,7 +914,7 @@
 
 .u-section-5 .u-layout-cell-7 {
   min-height: 415px;
-  background-image: linear-gradient(#545af8, #e84a90);
+  background-image: linear-gradient(#545af8, #7EC8E3);
 }
 
 .u-section-5 .u-container-layout-7 {
@@ -1330,7 +1330,7 @@
 }
 @media (min-width: 575px) {
   .alternative-color-1{
-    background-color: #e84a90;
+    background-color: #7EC8E3;
   }
   .alternative-color-2{
     background-color: #e5e5e5;  
@@ -1345,9 +1345,9 @@
     display: none;
     border-radius:100%;
 }
-.contactus_gradient{
+/* .contactus_gradient{
   background-image: linear-gradient(#e5e5e5, #0D6EFD);
-}
+} */
 
 
 /* ************************************** */
