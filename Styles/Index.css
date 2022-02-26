@@ -219,9 +219,9 @@
   background-image: none;
 }
 
-.u-section-3 .u-sheet-1 {
+/* .u-section-3 .u-sheet-1 {
   min-height: 923px;
-}
+} */
 
 .u-section-3 .u-text-1 {
   font-weight: 400;
@@ -332,9 +332,9 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-3 .u-sheet-1 {
+  /* .u-section-3 .u-sheet-1 {
     min-height: 825px;
-  }
+  } */
 
   .u-section-3 .u-text-2 {
     margin-left: 135px;
@@ -369,9 +369,9 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-3 .u-sheet-1 {
+  /* .u-section-3 .u-sheet-1 {
     min-height: 900px;
-  }
+  } */
 
   .u-section-3 .u-text-2 {
     margin-left: 25px;
@@ -392,9 +392,9 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-3 .u-sheet-1 {
+  /* .u-section-3 .u-sheet-1 {
     min-height: 906px;
-  }
+  } */
 
   .u-section-3 .u-text-2 {
     margin-left: 0;
@@ -418,9 +418,9 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-sheet-1 {
+  /* .u-section-3 .u-sheet-1 {
     min-height: 1200px;
-  }
+  } */
 
   .u-section-3 .u-image-1 {
     height: 264px;
@@ -439,6 +439,9 @@
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(1, 100%);
     min-height: 760px;
+  }
+  h2.u-text-1{
+    font-size: 2.5rem;
   }
 } .u-section-4 {
   background-image: linear-gradient(#545af8, #7EC8E3);
@@ -1375,7 +1378,6 @@
   right: 4vw;
 }
 
-/* Add some content at the bottom of the video/page */
 .content {
   position: fixed;
   bottom: 0;
@@ -1383,4 +1385,10 @@
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+}
+
+@media (max-width: 1075px){
+  #myVideo {
+    right: 14vw;  
+  }
 }
