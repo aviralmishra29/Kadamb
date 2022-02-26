@@ -1376,18 +1376,22 @@
 #myVideo {
   position: relative;
   right: 4vw;
+  margin-bottom: 50px;
 }
-
+.content {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  align-self: center;
+}  
 @media (max-width: 1075px){
   #myVideo {
     right: 14vw;  
   }
-  .content {
-    position: absolute;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }  
+  
 }
