@@ -474,3 +474,24 @@
   }
   
 }
+
+.padding_in_btw{
+  padding: 6px 0px;
+  margin-bottom: 10px;
+}
+
+.alt_bgcolor{
+  background-color: whitesmoke;
+  padding-top: 1px;
+  /* padding-bottom: 100px; */
+}
+.scrollto{
+  text-decoration: none;
+}
+.padding_rl{
+  padding: 10px;
+  /* border: solid 2px red; */
+}
+.margin_bottom{
+  margin-bottom: 100px;
+}
