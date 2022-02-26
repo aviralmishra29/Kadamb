@@ -477,7 +477,7 @@
 
 .padding_in_btw{
   padding: 6px 0px;
-  margin-bottom: 10px;
+  margin-bottom: 110px;
 }
 
 .alt_bgcolor{
@@ -490,7 +490,7 @@
 }
 .padding_rl{
   padding: 10px;
-  /* border: solid 2px red; */
+  padding-top: 40px;
 }
 .margin_bottom{
   margin-bottom: 100px;
