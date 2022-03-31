@@ -1,3 +1,3 @@
-BASE_URL = 'http://localhost:8000';
+BASE_URL = 'https://aditya2712.pythonanywhere.com/';
 
 CONTACT_URL = `${BASE_URL}/contact/create/`;

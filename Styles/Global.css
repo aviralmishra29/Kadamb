@@ -41,8 +41,6 @@ body{
   top: 0%;
 }
 .preloader{
-  /* background: rgb(255, 255, 255) url(../images/logo.jpg) no-repeat center; */
-  /* background-size: 15%; */
   position: fixed;
   height: 100vh;
   width: 100vw;
@@ -71,12 +69,9 @@ body{
 }
 
 .preloader-image{
-  animation: logoloader 5s infinite ease-in-out;
-  height: 500px;
-  width: 500px;
+  /* animation: logoloader 5s infinite ease-in-out; */
+  width: 60px;
 }
-
-
 
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotatey(0deg); }
@@ -90,13 +85,13 @@ body{
 
 @keyframes logoloader {
   0%{
-    transform: scale(0.0);
-  }
-  50%{
     transform: scale(0.5);
   }
+  50%{
+    transform: scale(0.9);
+  }
   100%{
-    transform: scale(0.0);
+    transform: scale(0.5);
   }
 }
 .text-left-mobileview{
@@ -107,4 +102,10 @@ body{
 }
 .bg-primary{
   background-image: linear-gradient(#0d6efd, #4A8BC2);
+}
+
+.footer_img{
+  width: 125%;
+  height: auto;
+  transform: translateY(14px);
 }
